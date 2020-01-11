@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Base64 File Encoder And Decoder</title>
+		<link rel="stylesheet" href="base64.css">
+		<script src="base64.js" async defer></script>
+	</head>
+	<body>
+		<div>
+			<label id="upload">
+				Upload File
+				<input type="file" id="input-file">
+			</label>
+			<textarea disabled rows="2" cols="60" id="info"></textarea>
+			<label>
+				<input type="checkbox" id="check">
+				Use text input
+			</label>
+		</div>
+
+		<div>
+			<button type="button" id="decode">Decode</button>
+			<button type="button" id="encode">Encode</button>
+			<button type="button" id="clear">Clear</button>
+		</div>
+		
+		<div>
+			<textarea rows="30" cols="60" id="txt" style="display: none;"></textarea>
+			<a id="download"></a>
+		</div>
+	</body>
+</html>
