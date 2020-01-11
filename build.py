@@ -30,7 +30,7 @@ def main():
         s += "<html>\n"
         s += "<head>\n"
         s += "\t<meta charset=\"utf-8\">\n"
-        s += "\t<title>Title</title>\n"
+        s += "\t<title>Base64 File Encoder And Decoder</title>\n"
         s += "</head>\n"
         s += "<body style=\"margin: 0;\">\n"
         s += "\t<iframe src=\"data:text/html;base64,"
